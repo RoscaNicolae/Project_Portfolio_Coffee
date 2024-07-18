@@ -1,4 +1,4 @@
-#select * from coffee;
+select * from coffee;
 /*SELECT 
 	CONCAT((ROUND(SUM(unit_price * transaction_qty)))/1000, "K")  AS Total_Sales
 FROM
